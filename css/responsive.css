@@ -368,7 +368,7 @@ font-family: 'Roboto', sans-serif;
 .login{
   position: relative;
   z-index: 999;
-  width: 412px !important;
+  width: 400px !important;
   height: 100vh;
   padding: 10px 10px 10px 10px !important;
 }
