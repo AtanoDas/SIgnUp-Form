@@ -373,7 +373,7 @@ font-family: 'Roboto', sans-serif;
   padding: 10px 10px 10px 10px !important;
 }
 .full-page{
-  width: 100%;
+  width: 97% !important;
   height: 600px;
   background: linear-gradient(to left, #ffffff, #3F25AA);
   margin: 0 auto;
@@ -446,7 +446,7 @@ label{
 .name input{
   color: black;
   padding: -6px;
-  width: 125px !important;
+  width: 119px !important;
   border: none;
   padding: 3px 0px 0px 10px;
   font-weight: 600 !important;
