@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@300;400;500&display=swap');
+
+/*Font family Link
+font-family: 'Krona One', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.Login-bg{
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	position: absolute;
+}
+/*.design{
+	position: fixed;
+	z-index: 0;
+	width: 30%;
+	height: 50%;
+	background-color: #864000;
+	border-bottom-right-radius: 120px; 
+	border-top-right-radius: 120px;
+	border-bottom-left-radius: 120px;
+	/*border-radius: 120px;*/
+
+
+
+.login{
+	position: relative;
+	z-index: 999;
+	width: 100%;
+	height: 100vh;
+	padding: 60px 80px 80px 80px;
+
+}
+.full-page{
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(to left, #ffffff, #3F25AA);
+	margin: 0 auto;
+	box-shadow: 5px -2px 32px 24px rgb(0 0 0 / 50%);
+	display: flex;
+
+}
+.full-page .image{
+	padding-top: 115px;
+    padding-left: 70px;
+}
+/*@keyframes fadeOut{
+	from{
+		opacity: 100%;
+	}
+	to{
+		opacity: 50%;
+	}
+}*/
+
+.full-page .image img{
+	width: 500px;
+	height: 400px;
+	animation: fadeInOut 2s infinite alternate;
+}
+@keyframes fadeInOut{
+  0%{
+    opacity: 0.1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.full-page .divider{
+	margin: 90px 10px 30px 10px;
+	width: 2px;
+	height: 400px;
+	background-color: black;
+
+}
+.full-page .form{
+    width: 50%;
+    height: 600px;
+    padding: 40px 50px 10px 50px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.form i{
+	font-family: 'Krona One', sans-serif;
+	font-size: 40px;
+	color: black;
+	border: 5px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	font-style: normal;
+}
+.form h4{
+	padding: 15px 0px 0px 0px;
+	margin-top: 10px;
+	margin-left: 140px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	font-size: 30px;
+	font-weight: 800;
+	font-family: 'Krona One', sans-serif;
+	width: 0ch;
+	animation: 6s text steps(12) infinite;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 2px solid black;
+}
+@keyframes text{
+	0%{
+		width: 0ch;
+	}
+	50%{
+		width: 12ch;
+	}
+}
+
+.form .line{
+	width: 100px;
+    height: 2px;
+    margin: auto;
+    background-color: black;
+}
+
+label{
+	font-family: 'Roboto', sans-serif;
+
+
+}
+.form .name{
+	padding: 20px 0px;
+	display: flex;
+}
+.name img{
+	width: 15px;
+	height: 16px;
+}
+.name input{
+	color: black;
+	padding: -6px;
+	width: 220px;	
+	font-size: 14px;
+	font-weight: 600px;
+ 	border: none;
+	padding: 3px 0px 2px 10px;
+	background-color: transparent;
+}
+.name input::placeholder{
+	color: black;
+	transition: 0.6s;
+}
+.name input:focus{
+	outline: none;
+	color: black;	
+}
+.name input:focus::placeholder{
+	opacity: 0;
+}
+.name .first-name,.last-name{
+	color: black;
+	width: 48%;
+	padding: 2px 10px;
+	margin: 5px;
+	background: transparent;
+	border: 1px solid rgba(0,0,0,30%);
+	margin-right: 15px;
+}
+.name .last-name{
+	margin-right: 0px !important;	
+}
+.form .email{
+	padding: 2px 5px;
+	margin: 5px;
+	background: transparent;
+	border: 1px solid rgba(0,0,0,30%);
+	margin-right: 0px;
+}
+.email img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;
+
+}
+
+.email input{
+	width: 93%; 
+	color: black;
+	padding: -6px;
+	font-size: 14px;
+	font-weight: 600px;	
+ 	border: none;
+	padding: 3px 0px 2px 10px;
+	background-color: transparent;
+
+
+}
+.email input::placeholder{
+	color: black;
+	transition: 0.6s;
+}
+.email input:focus{
+	outline: none;
+	color: black;	
+}
+.email input:focus::placeholder{
+	opacity: 0;
+}
+
+
+.form .password{
+	padding: 20px 0px;
+	display: flex;
+}
+.password img{
+	width: 15px;
+	height: 16px;
+    margin-bottom: 5px;
+}
+.password input{
+	color: black;
+	padding: -6px;
+	width: 220px;	
+ 	border: none;
+ 	font-size: 14px;
+	font-weight: 600px;
+	padding: 3px 0px 2px 10px;
+	background-color: transparent;
+}
+.password .password-confirm input{
+	font-size: 10px !important;
+}
+.password input::placeholder{
+	color: black;
+	transition: 0.6s;
+}
+.password input:focus{
+	outline: none;
+	color: black;	
+}
+.password input:focus::placeholder{
+	opacity: 0;
+}
+.password .password-new,.password-confirm{
+	color: black;
+	width: 48%;
+	padding: 2px 10px;
+	margin: 5px;
+	background: transparent;
+	border: 1px solid rgba(0,0,0,30%);
+	margin-right: 15px;
+}
+.password .password-confirm{
+	margin-right: 0px !important;	
+}
+
+.form .Create{
+	width: 100%;
+	border: none;
+	color: #f8f9fa;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: 800;
+	padding: 5px;
+	background: #212529;
+	margin-left: 3px !important;
+	border-radius: 3px;
+}
+
+.form .Or{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.Or .line1{
+	margin: 12px 10px; 
+	width: 36%;
+	height: 1.5px;
+	background-color: black;
+
+}
+.form .Facebook{
+	width: 100%;
+	border: none;
+	color: #f8f9fa;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: 800;
+	padding: 5px;
+	background: #3C579E;
+	margin-left: 3px !important;
+	border-radius: 3px;
+	margin: 10px auto;
+}
+.form .Google{
+	width: 100%;
+	border: none;
+	color: #f8f9fa;
+	font-size: 20px;
+	font-family: serif;
+	font-weight: 800;
+	padding: 5px;
+	background: #CF4332;
+	margin-left: 3px !important;
+	border-radius: 3px;
+}
