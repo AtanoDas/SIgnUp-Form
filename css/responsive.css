@@ -923,3 +923,22 @@ label{
 }
   
 }
+@media (min-width: 1140px) {
+  
+  /* CSS */
+  .full-page {
+    width: 120% !important;
+
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  
+  /* CSS */
+  .full-page {
+    width: 120% !important;
+
+  }
+  
+}
