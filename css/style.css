@@ -11,6 +11,7 @@ body{
     background-color: #212932;
 }
 .bg-img{
+    display: none;
     width: 100%;
     min-height: 100%;
         position: absolute;
@@ -35,15 +36,11 @@ body{
     }
 }
 .sign-page{
-    width: 95%;
+    width: 50%;
     position: absolute;
-    left: 2%;
-    top: 100px;
-    align-items: center;
-    align-content: center;
-}
-.sign-overlap{
-    position: absolute;
+    left: 25%;
+    top: 10%;
+
 }
 .logo-img{
     display: flex;

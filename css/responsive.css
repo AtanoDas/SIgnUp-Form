@@ -9,7 +9,12 @@
   
   /* CSS */
 
-
+.bg-img{
+    display: block !important;
+    width: 100%;
+    min-height: 100%;
+        position: absolute;
+}
 .sign-page{
     width: 90% !important;
     position: absolute;
